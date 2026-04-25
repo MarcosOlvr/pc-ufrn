@@ -7,13 +7,13 @@ while True:
 
         if metodoDePagamento == "V":
             desconto = valor * (5/100) 
-            print(f"Valor à pagar {valor - desconto}")
+            print(f"Valor à pagar R${valor - desconto:.2f}")
 
         elif metodoDePagamento == "P":
             valorComJuros = valor * (1 + (8/100))
             parcela = valorComJuros / 3
 
-            print(f"O valor à pagar é 3 parcelas de {parcela}")
+            print(f"O valor à pagar é 3 parcelas de R${parcela:.2f}")
 
         else:
             raise Exception()
