@@ -13,6 +13,7 @@ while True:
             valor += x
 
         print(f"A área total do terreno é {valor:.2f} m2")
+        
         break
     
     except: 

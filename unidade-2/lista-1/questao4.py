@@ -11,6 +11,7 @@ while True:
         print(f"A sequência é a seguinte: {valores[0]} {valores[1]} {numero} {valores[2]} {valores[3]} {soma}")
         
         break
+    
     except:
-        print("INSIRA UM NÚMERO INTEIRO DA PROXIMA VEZ")
+        print("Insira um número válido (inteiro)")
 
